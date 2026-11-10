@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints & environment
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+*-checkpoint.ipynb
+
+# Datasets (downloaded via download_dataset.py and torchvision)
+data/images/*
+!data/images/.gitkeep
+data/mnist/*
+!data/mnist/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
